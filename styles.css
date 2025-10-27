@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Satoshi Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Regular'), url('fonts/Satoshi-Regular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Italic'), url('fonts/Satoshi-Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Light'), url('fonts/Satoshi-Light.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Light Italic'), url('fonts/Satoshi-LightItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Medium'), url('fonts/atoshi-Medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Medium Italic'), url('Satoshi-MediumItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Bold'), url('Satoshi-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Bold Italic'), url('fonts/Satoshi-BoldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Black'), url('fonts/Satoshi-Black.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Black Italic'), url('fonts/Satoshi-BlackItalic.woff') format('woff');
+    }
+
+    body{
+      font-family: 'Satoshi Regular' , sans-serif;
+      background-color: aqua;
+    }
+    h1, h2 {
+      font-family: 'Satoshi Bold' , sans-serif;
+    }
+
+
+    .searchBar{
+      width: 600px;
+      border-radius: 62px;
+      
+      margin-right: 20px;
+    }
+    .inp{
+      border-radius: 62px;
+      border: none;
+      background-color: #f0f0f0;
+    }
+
+    .searchicon{
+      position:relative;
+      left: 34px;
+      top: 6px;
+      z-index: 1;
+      height: 100%;
+      display: flex;
+
+    }
+    .imgpro{
+      margin-right: 100px;
+      margin-left: 15px;
+    }
+
+    .imgcart{
+      margin-left : 20px;
+
+    }
+    .searchiconsm{
+      display:none;
+
+    }
+
+    @media (max-width: 390px) {
+  body {
+    font-size: 12px;
+  }
+
+  .searchBar{
+    display:none;
+  }
+  .imgpro{
+      margin-right: 2px;
+      margin-left: 4px;
+    }
+
+    .imgcart{
+      margin-right : 4px;
+      margin-left:4px;
+
+    }
+    .searchiconsm{
+      display:inline;
+    }
+}
