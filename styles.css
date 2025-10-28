@@ -1,145 +1,279 @@
 @font-face {
-    font-family: 'Satoshi Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Satoshi Regular'), url('fonts/Satoshi-Regular.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Satoshi Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Satoshi Italic'), url('fonts/Satoshi-Italic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Satoshi Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Satoshi Light'), url('fonts/Satoshi-Light.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Satoshi Light Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Satoshi Light Italic'), url('fonts/Satoshi-LightItalic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Satoshi Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Satoshi Medium'), url('fonts/atoshi-Medium.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Satoshi Medium Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Satoshi Medium Italic'), url('Satoshi-MediumItalic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Satoshi Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Satoshi Bold'), url('Satoshi-Bold.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Satoshi Bold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Satoshi Bold Italic'), url('fonts/Satoshi-BoldItalic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Satoshi Black';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Satoshi Black'), url('fonts/Satoshi-Black.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Satoshi Black Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Satoshi Black Italic'), url('fonts/Satoshi-BlackItalic.woff') format('woff');
-    }
-
-    body{
-      font-family: 'Satoshi Regular' , sans-serif;
-      background-color: aqua;
-    }
-    h1, h2 {
-      font-family: 'Satoshi Bold' , sans-serif;
-    }
+  font-family: 'Satoshi Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Satoshi Regular'), url('fonts/Satoshi-Regular.woff') format('woff');
+}
 
 
-    .searchBar{
-      width: 600px;
-      border-radius: 62px;
-      
-      margin-right: 20px;
-    }
-    .inp{
-      border-radius: 62px;
-      border: none;
-      background-color: #f0f0f0;
-    }
+@font-face {
+  font-family: 'Satoshi Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Satoshi Italic'), url('fonts/Satoshi-Italic.woff') format('woff');
+}
 
-    .searchicon{
-      position:relative;
-      left: 34px;
-      top: 6px;
-      z-index: 1;
-      height: 100%;
-      display: flex;
 
-    }
-    .imgpro{
-      margin-right: 100px;
-      margin-left: 15px;
-    }
+@font-face {
+  font-family: 'Satoshi Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Satoshi Light'), url('fonts/Satoshi-Light.woff') format('woff');
+}
 
-    .imgcart{
-      margin-left : 20px;
 
-    }
-    .searchiconsm{
-      display:none;
+@font-face {
+  font-family: 'Satoshi Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Satoshi Light Italic'), url('fonts/Satoshi-LightItalic.woff') format('woff');
+}
 
-    }
 
-    @media (max-width: 390px) {
+@font-face {
+  font-family: 'Satoshi Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Satoshi Medium'), url('fonts/atoshi-Medium.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Satoshi Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Satoshi Medium Italic'), url('Satoshi-MediumItalic.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Satoshi Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Satoshi Bold'), url('Satoshi-Bold.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Satoshi Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Satoshi Bold Italic'), url('fonts/Satoshi-BoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Satoshi Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Satoshi Black'), url('fonts/Satoshi-Black.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Satoshi Black Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Satoshi Black Italic'), url('fonts/Satoshi-BlackItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'IntegralCF';
+  src: url('fonts/Fontspring-DEMO-integralcf-bold.otf') format('opentype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: 'Satoshi Regular', sans-serif;
+  background-color: aqua;
+}
+
+h1,
+h2 {
+  font-family: 'Satoshi Bold', sans-serif;
+}
+.sTop{
+  height: 38px;
+  font-size: 14px;
+}
+.xicon{
+left:25%;
+position:relative;
+}
+
+
+.searchBar {
+  width: 600px;
+  border-radius: 62px;
+
+  margin-right: 20px;
+}
+
+.inp {
+  border-radius: 62px;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+.searchicon {
+  position: relative;
+  left: 34px;
+  top: 6px;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+
+}
+
+.imgpro {
+  margin-right: 100px;
+  margin-left: 15px;
+}
+
+.imgcart {
+  margin-left: 20px;
+
+}
+
+.searchiconsm {
+  display: none;
+
+}
+
+.mains {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #f1f2f0;
+}
+
+.mainTitle {
+  font-family: 'IntegralCF', sans-serif;
+  font-size: 64px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.mainText {
+  font-family: 'Satoshi Regular', sans-serif;
+  font-size: 16px;
+  color: #555;
+  max-width: 500px;
+}
+
+.mainStats h3 {
+  font-family: 'Satoshi Bold', sans-serif;
+  font-size: 40px;
+  color: #000;
+}
+
+.mainStext{
+    font-size: 14px;
+    font-family: 'Satoshi Bold', sans-serif;
+    color: #666;
+  }
+
+.mainImg {
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+}
+
+.brandBar{
+  background:#000;
+  padding:24px 0;
+}
+
+.brandList{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;              
+}
+
+.brandLogo{
+  height:28px;
+  object-fit:contain;
+  filter: brightness(0) invert(1);
+  opacity:.9;
+  transition:opacity .2s ease;
+}
+.brandLogo:hover{ opacity:1; }
+ 
+.brandLogoWide{ height:32px; }
+
+@media (max-width: 390px) {
   body {
     font-size: 12px;
   }
+  .sTop{font-size: 14px;}
 
-  .searchBar{
-    display:none;
+
+  .searchBar {
+    display: none;
   }
-  .imgpro{
-      margin-right: 2px;
-      margin-left: 4px;
-    }
 
-    .imgcart{
-      margin-right : 4px;
-      margin-left:4px;
+  .imgpro {
+    margin-right: 4px;
+    margin-left: 4px;
+  }
 
-    }
-    .searchiconsm{
-      display:inline;
-    }
+  .imgcart {
+    margin-right: 4px;
+    margin-left: 4px;
+
+  }
+
+  .searchiconsm {
+    display: inline;
+  }
+  .mainTitle {
+    font-size: 36px;
+    text-align: center;
+  }
+  .xicon{
+    padding-left: 2px;
+    position:static;
+  }
+
+  .mainStats {
+    font-family: 'Satoshi Bold', sans-serif;
+    margin-top: 20px;
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+  .mainStext{ font-size: 12px; }
+
+  .mainStats h3 {
+    font-size: 24px;
+  }
+
+  .mainImg {
+    max-width: 400px;
+  }
+  .brandList{
+    justify-content:space-around;  
+    flex-wrap:wrap;                 
+    row-gap:16px;
+  }
+  .brandLogo{ height:22px; }
+  .brandLogoWide{ height:24px; }
 }
