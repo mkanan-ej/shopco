@@ -104,7 +104,7 @@
 
 body {
   font-family: 'Satoshi Regular', sans-serif;
-  background-color: aqua;
+  background-color: #fff;
 }
 
 h1,
@@ -245,6 +245,48 @@ position:relative;
  
 .brandLogoWide{ height:32px; }
 
+
+.sectionTitle{
+  font-family:'IntegralCF',sans-serif;
+  font-weight:900;
+  font-size:34px;
+  letter-spacing:0.5px;
+}
+
+.productCard{
+  background:#fff;
+  transition:transform .3s ease, box-shadow .3s ease;
+}
+.productCard:hover{
+  transform:translateY(-5px);
+  box-shadow:0 6px 18px rgba(0,0,0,.08);
+}
+
+.productImg{
+  width:100%;
+  border-radius:12px;
+}
+
+.productName{
+  font-family:'Satoshi Bold',sans-serif;
+  font-size:15px;
+  color:#111;
+}
+
+.productRating{
+  font-size:13px;
+  color:#888;
+}
+
+.productPrice{
+  font-family:'Satoshi Bold',sans-serif;
+  font-size:15px;
+  color:#000;
+}
+
+
+
+
 @media (max-width: 390px) {
   body {
     font-size: 12px;
@@ -307,4 +349,9 @@ position:relative;
   .brandBar{margin-top: -160px;}
   .brandLogo{ height:22px; }
   .brandLogoWide{ height:24px; }
+
+  .sectionTitle{font-size:24px;}
+  .productName{font-size:13px;}
+  .productPrice{font-size:14px;}
+  .productCard{padding:10px;}
 }
