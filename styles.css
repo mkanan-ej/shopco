@@ -301,8 +301,15 @@ position:relative;
   color:#000;
   font-weight: 700;
   margin-top: -10px;
-}
 
+}
+  .discount{
+    font-size: 12px;
+    font-weight: 500;
+    background-color: rgb(255, 229, 229);
+    border-radius: 20px;
+    border-style: none;
+  }
 
 
 
@@ -394,5 +401,9 @@ position:relative;
   .productCard{padding:10px;}
   .rating{
     width:100px;
+  }
+  .discount{
+    font-size: 10px;
+    font-weight: 500;
   }
 }
