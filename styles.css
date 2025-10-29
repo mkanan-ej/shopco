@@ -124,7 +124,6 @@ position:relative;
 .searchBar {
   width: 600px;
   border-radius: 62px;
-
   margin-right: 20px;
 }
 
@@ -266,7 +265,6 @@ position:relative;
   font-family:'IntegralCF',sans-serif;
   font-weight:900;
   font-size:34px;
-  letter-spacing:0.5px;
 }
 
 .productCard{
@@ -349,6 +347,43 @@ position:relative;
   text-align: left;
   padding-left: 10px;
   margin-bottom: 12px;
+}
+
+.subDiv{
+  padding-left: 60px;
+  border-radius: 40px;
+}
+
+.subText{
+  font-family:'IntegralCF',sans-serif;
+  font-weight:900;
+  font-size:40px;
+  color: white;
+  padding-top: 24px;
+}
+
+
+.nlForm{
+  width: 358px;
+  height:50px;
+  margin-bottom:20px;
+  margin-left: 170px;
+  margin-top: 20px;
+}
+.mailIcon{
+  position: relative;
+  left: 40px;
+  top: 10px;
+  z-index: 1;
+  height: 32px;
+  width: 30px;
+
+}
+.subbut{
+  width:328px;
+  height:50px;
+  margin-left: 115px;
+
 }
 
 @media (max-width: 390px) {
@@ -464,5 +499,52 @@ position:relative;
     font-size: 16px;
     text-align: left;
     padding-left: 8px;
+  }
+
+
+  .nlsec{
+    background-color: #fff;
+
+  }
+  .subDiv{
+    width: 350px;
+    height: 350px;
+    padding-bottom:50px;
+    padding-left:0;
+    padding-right:0;
+  }
+
+  .subText{
+    font-family:'IntegralCF',sans-serif;
+    font-weight:900;
+    font-size:32px;
+    color: white;
+    text-align: start;
+    padding-left:25px;
+    padding-right:25px;
+  }
+
+
+  .nlForm{
+    width: 288px;
+    height:50px;
+    margin-bottom:20px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .mailIcon{
+    position: relative;
+    left: -120px;
+    top: 35px;
+    z-index: 1;
+    height: 32px;
+    width: 30px;
+  }
+  .subbut{
+    width:288px;
+    height:42px;
+    margin-bottom:20px;
+    margin-left: 0;
+    margin-top: 10px;
   }
 }
