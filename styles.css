@@ -303,15 +303,53 @@ position:relative;
   margin-top: -10px;
 
 }
-  .discount{
-    font-size: 12px;
-    font-weight: 500;
-    background-color: rgb(255, 229, 229);
-    border-radius: 20px;
-    border-style: none;
-  }
+.discount {
+  font-size: 12px;
+  font-weight: 500;
+  background-color: rgb(255, 229, 229);
+  border-radius: 20px;
+  border-style: none;
+}
+
+.browseStyle {
+  background-color: #fff;
+  
+}
+.bigrid{
+  background-color: #f0f0f0;
+  border-radius: 30px;
+  height: 700px;
+}
+.styleText{
+  padding: 50px;
+}
+.allCards{
+  padding: 0 50px;
+}
+.styleCard {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+}
 
 
+.styleCard img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 30px;
+  object-position: center top;
+
+}
+
+.styleName {
+  font-family: 'Satoshi Bold', sans-serif;
+  font-size: 18px;
+  color: #000;
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 12px;
+}
 
 @media (max-width: 390px) {
   body {
@@ -324,7 +362,9 @@ position:relative;
   }
 
   .sTop{font-size: 14px;}
-
+  .fullNav{
+    padding-left:5px;
+  }
 
   .searchBar {
     display: none;
@@ -405,5 +445,24 @@ position:relative;
   .discount{
     font-size: 10px;
     font-weight: 500;
+  }
+    .browseStyle {
+    padding: 40px 20px;
+    border-radius: 0;
+  }
+  .bigrid{
+    background-color: #f0f0f0;
+    border-radius: 30px;
+    height: 860px;
+  }
+  .styleCard img {
+    height: 150px;
+    object-position: center left;
+  }
+
+  .styleName {
+    font-size: 16px;
+    text-align: left;
+    padding-left: 8px;
   }
 }
