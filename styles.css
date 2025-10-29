@@ -287,16 +287,20 @@ position:relative;
   font-family:'Satoshi Bold',sans-serif;
   font-size:15px;
   color:#111;
+  font-weight: 700;
 }
 
 .rating{
-  width: 50%;
+  width: 120px;
+  margin-top: -15px;
 }
 
 .productPrice{
   font-family:'Satoshi Bold',sans-serif;
-  font-size:15px;
+  font-size:16px;
   color:#000;
+  font-weight: 700;
+  margin-top: -10px;
 }
 
 
@@ -388,4 +392,7 @@ position:relative;
   .productName{font-size:13px;}
   .productPrice{font-size:14px;}
   .productCard{padding:10px;}
+  .rating{
+    width:100px;
+  }
 }
