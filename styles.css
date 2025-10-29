@@ -160,7 +160,7 @@ position:relative;
 }
 
 .mains {
-  background: #f1f2f0;
+  background: #f0f0f0;
   padding-left: auto;
   padding-right: auto;
 }
@@ -201,7 +201,7 @@ position:relative;
   max-height: 100%;
   height: auto;
   transform: scale(1.2);
-  clip-path: inset(30px 0 130px 0);
+  clip-path: inset(30px 0 220px 0);
   z-index: 0;
 
 }
@@ -220,9 +220,10 @@ position:relative;
 .brandBar{
   background: #000;
   padding: 24px 0;
-  margin-top: -150px;
+  margin-top: -240px;
   z-index: 5;
   position: relative;
+  margin-bottom:20px;
 }
 
 .brandList{
@@ -244,6 +245,21 @@ position:relative;
 }
  
 .brandLogoWide{ height:32px; }
+
+
+.fix{
+  margin-top: -65px;
+}
+.newArrivals .fix {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background-color: #fff;
+  padding: 50px 0;
+}
 
 
 .sectionTitle{
@@ -273,9 +289,8 @@ position:relative;
   color:#111;
 }
 
-.productRating{
-  font-size:13px;
-  color:#888;
+.rating{
+  width: 50%;
 }
 
 .productPrice{
@@ -290,7 +305,13 @@ position:relative;
 @media (max-width: 390px) {
   body {
     font-size: 12px;
+    overflow-x: hidden;
   }
+  .container, .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .sTop{font-size: 14px;}
 
 
@@ -316,10 +337,12 @@ position:relative;
   }
   .searchiconsm {
     display: inline;
+    
   }
   .mainTitle {
     font-size: 36px;
-    text-align: center;
+    text-align: start;
+    padding-left: 10px;
   }
   .xicon{
     padding-left: 2px;
@@ -332,13 +355,17 @@ position:relative;
     font-size: 12px;
     flex-wrap: wrap;
   }
-  .mainStext{ font-size: 12px; }
+  .mainStext{ 
+    font-size: 14px;
+  }
 
   .mainStats h3 {
     font-size: 24px;
+    font-family: 'Satoshi Bold', sans-serif;
   }
 
   .mainImg {
+    clip-path: inset(30px 0 160px 0);
     max-width: 400px;
   }
   .brandList{
@@ -346,10 +373,17 @@ position:relative;
     flex-wrap:wrap;                 
     row-gap:16px;
   }
-  .brandBar{margin-top: -160px;}
+  .brandBar{
+    margin-top: -200px;
+    margin-bottom:20px;
+  }
   .brandLogo{ height:22px; }
   .brandLogoWide{ height:24px; }
-
+  .fix{
+    margin-top: -70px;
+    width: 100%;
+    padding: 0 0 0 0;
+  }
   .sectionTitle{font-size:24px;}
   .productName{font-size:13px;}
   .productPrice{font-size:14px;}
