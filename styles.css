@@ -352,6 +352,9 @@ position:relative;
 .subDiv{
   padding-left: 60px;
   border-radius: 40px;
+  margin-bottom: -75px;
+  z-index: 5;
+  position: relative;
 }
 
 .subText{
@@ -383,8 +386,66 @@ position:relative;
   width:328px;
   height:50px;
   margin-left: 115px;
-
+  margin-bottom: 20px;
 }
+
+.footer {
+  background: #f5f5f5;
+  font-family: 'Satoshi Regular', sans-serif;
+  color: #111;
+  z-index: 0;
+  position: relative;
+  padding-top: 60px;
+}
+
+.footer-logo {
+  width: 180px;
+}
+
+.footer-desc {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.footer-title {
+  font-family: 'Satoshi Bold', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+.footer-social img {
+  height: 30px;
+  object-fit: contain;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+.pay {
+  height: 70px;
+  border-radius: 6px;
+}
+
+
 
 @media (max-width: 390px) {
   body {
@@ -431,8 +492,7 @@ position:relative;
     padding-left: 10px;
   }
   .xicon{
-    padding-left: 2px;
-    position:static;
+    display: none;
   }
 
   .mainStats {
@@ -512,6 +572,7 @@ position:relative;
     padding-bottom:50px;
     padding-left:0;
     padding-right:0;
+    margin-bottom: -170px;
   }
 
   .subText{
@@ -546,5 +607,28 @@ position:relative;
     margin-bottom:20px;
     margin-left: 0;
     margin-top: 10px;
+  }
+  .footer {
+    text-align: center;
+    height:1000px;
+    padding-top: 150px;
+  }
+
+  .footer-desc {
+    max-width: 100%;
+  }
+
+  .footer-title {
+    margin-top: 1.5rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .pay{
+    width:260px;
+    height:45px;
   }
 }
