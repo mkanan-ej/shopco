@@ -447,6 +447,7 @@ h6 {
 
 .reviews {
   background: #fff;
+  min-height: 500px;
 }
 
 .reviewCard {
@@ -705,7 +706,9 @@ h6 {
     width: 260px;
     height: 45px;
   }
-
+  .reviews{
+    min-height: auto;
+  }
   .review-nav {
     position: absolute;
     right: 0;
