@@ -50,7 +50,7 @@
   font-family: 'Satoshi Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('Satoshi Bold'), url('Satoshi-Bold.woff') format('woff');
+  src: local('Satoshi Bold'), url('fonts/Satoshi-Bold.woff') format('woff');
 }
 
 
